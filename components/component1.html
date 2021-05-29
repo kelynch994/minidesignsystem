@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>kaLynch_DesignSystem_Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+  		<div class="p-4 pt-6">
+      <h1><a href="../index.html" class="logo">Katie Lynch</a></h1><img src="../img/LogoKLP.png" class="img-fluid mx-auto d-block">
+      <div class="col-4">
+      </div>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="#">Navigation</a>
+                </li>
+                <li>
+                    <a href="component2.html">Cards</a>
+                </li>
+                <li>
+                    <a href="component3.html">Session Info</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">Blog Page</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+                    <h2>Navigation </h2>
+                      
+                     <div class="row align-items center">
+                                  <div class="col">
+                                      
+                                      <p>This is a fixed component that runs along the top of the page. It allows users to navigate to any section of the site.</p>
+                                  </div>
+
+                                  <br>
+                                  <br>
+
+                                    <div class="components">
+                                        <img src="../img/Desktop_Nav.png" class="img-fluid" alt="Navigation: web layout" width="1000" alt="desktop nav layout">
+                                        <p>Web layout</p>
+                                    </div>
+                                    <div class="components">
+                                            <img src="../img/Tablet_Nav.png" class="img-fluid" alt="Navigation: tablet layout" width="600" alt="tablet nav layout">
+                                        <p>Tablet layout</p>
+                                      <div class="components">
+                                            <img src="../img/Mobile_Nav.png" class="img-fluid" alt="Navigation: mobile layout" width="600" alt="mobile nav layout">
+                                        <p>Mobile layout</p>
+                                        </div>
+                                                         
+                              </div>
+                              <br>
+                              <br>
+       
+       <div class="accessibility">
+
+                                  <h4>Accessibility</h4>
+                                  <p> When using a &lt;nav&gt; element, be sure to provide descriptive labels for navigation links. In addition, include ARIA roles such as aria-current-"page" to help assistive technologies identify menu buttons and active pages.</p>
+                              </div>
+                       
+           
+           <h4>Details</h4>   
+                      <p> When visiting the menu in the navigation area, the user is able to explore different pages. These pages include "Home," "Portfolio," "Experience," "About," and "Connect." The navigation menu is responsive and reformats depending on the webpage sizes. It is suitable for desktops, tablets, and mobile devices.</p>
+                      
+                      
+             <div class="code">
+                                  <h4>Code</h4>          
+                              
+
+                    <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+
+              <pre class="language-markup">
+              <code>
+                &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"&gt;
+            &lt;div class="container-fluid"&gt;
+                &lt;a class="navbar-brand" href="#"&gt;Navbar&lt;/a&gt;
+                &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"&gt;
+                  &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+                &lt;/button&gt;
+                &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+                  &lt;ul class="navbar-nav"&gt;
+                    &lt;li class="nav-item"&gt;
+                      &lt;a class="nav-link active" aria-current="Home" href="#"&gt;Home&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class="nav-item"&gt;
+                      &lt;a class="nav-link" href="#"&gt;Portfolio&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class="nav-item"&gt;
+                      &lt;a class="nav-link" href="#"&gt;Experience&lt;/a&gt;
+                    &lt;/li&gt;
+                      &lt;li class="nav-item"&gt;
+                      &lt;a class="nav-link" href="#"&gt;About&lt;/a&gt;
+                    &lt;/li&gt;
+                      &lt;li class="nav-item"&gt;
+                      &lt;a class="nav-link" href="#"&gt;Connect&lt;/a&gt;
+                    &lt;/li&gt;
+                  &lt;/ul&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/nav&gt;
+            </code>
+        </pre><!-- Code example -->
+        </div>              
+    		             
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+      <script src="../js/prism.js"></script> 
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

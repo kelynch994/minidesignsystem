@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>kaLynch_DesignSystem_Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link  rel="stylesheet"  href="../css/prism.css"/>
+
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+		<div class="p-4 pt-6">
+      <h1><a href="../index.html" class="logo">Katie Lynch</a></h1><img src="../img/LogoKLP.png" class="img-fluid mx-auto d-block">
+      <div class="col-4">
+      </div>
+
+	       <ul class="list-unstyled components">
+	     
+	          <li class="active">
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse.show list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="component1.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="#">Cards</a>
+                </li>
+                <li>
+                    <a href="component3.html">Session Info</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li>
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="../patterns/pattern1.html">Home Page</a>
+                </li>
+                <li>
+                    <a href="../patterns/pattern2.html">Blog Page</a>
+                </li>
+               
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+         <!-- Page Content  -->
+      <div class = "container">
+          <div class = "row p-5 pt-6">
+            <div id="content">
+
+                    <h2>Cards </h2>
+                      
+                     <div class="row align-items center">
+                                  <div class="col">
+                                      
+
+                                <p>This component is used to present blog posts for different photo sessions. Users are able to browse through the cards and read the session title and date. An image depicting the showcased session is displayed on each card.</p>
+                           
+                            <br>
+                           
+                                <img class="card-layout" src="../img/Tablet_Card.png" alt="blog card layout">
+                           
+
+                                  <br>
+                                  <br>
+       
+       <div class="accessibility">
+
+                                  <h4>Accessibility</h4>
+                                  <p> When using a card, be sure to include descriptive labels for &lt;p&gt; elements and headers. This helps assistive technologies identify these components. In addition, be sure to provide alt text for any images. </p>
+                              </div>
+                       
+           
+                      <h4>Details</h4>   
+                      <p>A total of four cards will be featured on the home page. These will represent different blog posts and provide information about the photo sessions. Users are able to read more about a session and view the full gallery by clicking on a card.</p>
+                      
+                      
+             <div class="code">
+                                  <h4>Code</h4>          
+                              
+
+                    <!-- Code example - this is what the prism.js and css are for added in this page - replace: all '<' with &lt; and  '>' with &gt; and all quotes with &quot; -->
+
+              <pre class="language-markup">
+              <code>
+            &lt;div class="card" style="width: 18rem;"&gt;
+              &lt;img src="..." class="card-img-top" alt="..."&gt;
+              &lt;div class="card-body"&gt;
+                &lt;p class="card-text"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            </code>
+        </pre><!-- Code example -->
+        </div>              
+                     
+    
+        </div>      <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+      <script src="../js/prism.js"></script> 
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
